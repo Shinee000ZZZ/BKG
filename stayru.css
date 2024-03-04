@@ -17,15 +17,39 @@ body {
 }
 
 .container{
-    padding: 2rem 7rem;
+    padding: 3rem 8rem;
     background-color: #3f335d;
     border-radius: 14px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.user_name {
+    margin-bottom: 110px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.user_name h1{
+    color: aliceblue;
+}
+
+.cpu_name {
+    margin-bottom: 110px;
+    margin-left: 260px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.cpu_name h1{
+    color: aliceblue;
+}
+
 .result_images{
     display: flex;
+    flex-direction: row;
     column-gap: 10rem;
+    align-items: center;
 }
 
 .container.start .user_result{
@@ -48,6 +72,7 @@ body {
 
 .result_images img {
     width: 100px;
+    padding-top: 20px;
 }
 
 .user_result{
@@ -115,6 +140,28 @@ body {
         padding: 50px;
     }
 
+    .user_name {
+        margin-bottom: 110px;
+        margin-left: -250px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .user_name h1{
+        color: aliceblue;
+    }
+    
+    .cpu_name {
+        margin-bottom: 110px;
+        margin-left: 260px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .cpu_name h1{
+        color: aliceblue;
+    }
+
     .option_image img{
         width: 40px;
     }
@@ -137,6 +184,30 @@ body {
     .container{
         width: 450px;
         padding: 50px;
+    }
+
+    .user_name {
+        margin-bottom: 110px;
+        margin-left: -208px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .user_name h1{
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .cpu_name {
+        margin-bottom: 110px;
+        margin-left: 210px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .cpu_name h1{
+        color: aliceblue;
+        font-size: 20px;
     }
 
     .option_image img{
@@ -164,6 +235,29 @@ body {
         width: 400px;
         padding: 50px;
     }
+
+    .user_name {
+        margin-bottom: 110px;
+        margin-left: -185px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .user_name h1{
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .cpu_name {
+        margin-bottom: 110px;
+        margin-left: 192px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+
+    .cpu_name h1{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -177,6 +271,29 @@ body {
     .container{
         width: 350px;
         padding: 58px;
+    }
+
+    .user_name {
+        margin-bottom: 110px;
+        margin-left: -170px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    
+    .user_name h1{
+        color: aliceblue;
+        font-size: 15px;
+    }
+    
+    .cpu_name {
+        margin-bottom: 110px;
+        margin-left: 170px;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+
+    .cpu_name h1{
+        font-size: 15px;
     }
 
     .option_image img{
@@ -200,8 +317,8 @@ body {
     }
 
     .container{
-        width: 290px;
-        padding: 10px;
+        width: 300px;
+        padding: 25px;
         padding-bottom: 35px;
     }
 
