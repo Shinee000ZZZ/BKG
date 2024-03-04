@@ -28,19 +28,19 @@ const gameContainer = document.querySelector(".container"),
     
                 let outComes = {
                     BB : "Draw",
-                    BK : "User",
-                    BG : "Cpu",
+                    BK : "You",
+                    BG : "Computer",
                     KK : "Draw",
-                    KG : "User",
-                    KB : "Cpu",    
+                    KG : "You",
+                    KB : "Computer",    
                     GG : "Draw",
-                    GB : "User",
-                    GK : "Cpu",
+                    GB : "You",
+                    GK : "Computer",
                 }
     
                 let outComeValue = outComes[userValue + cpuValue];
                 
-                result.textContent = userValue === cpuValue ? "Match Draw" : `${outComeValue}   Win!! `;
+                result.textContent = userValue === cpuValue ? "Match Draw" : `${outComeValue}   Win! `;
             },2000);
 
         });
